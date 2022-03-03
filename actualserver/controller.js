@@ -28,7 +28,7 @@ module.exports = {
 
     let msgObj = {
       pinHash,
-      message: [message],
+      messages: [message],
     };
 
     chats.push(msgObj);
